@@ -1,0 +1,15 @@
+Sockets
+    Need to send boardstate
+        Host doesn't need to send move confirmation
+    Client needs to send move requests
+    Host needs to recieve move requests
+
+How to send boardstate
+    Could just send each tile
+    Could send instructions to recreate the board
+        Then add the pieces
+        Struggles with non-piece changes
+            Like selected square colors and highlighted colors
+    
+
+Standardize variable size to send over info better
