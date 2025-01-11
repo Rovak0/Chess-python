@@ -50,9 +50,9 @@ for item in pieceData.placeDict["base"]:
             count2pawn +=1
 
 # squareList[0][0].setContent(pieces("queen", 1, moveCap = 4))
-squareList[4][4].setContent(pieceData.fantasyPieces["monk1"])
-squareList[4][4].getContent().setX(4)
-squareList[4][4].getContent().setY(4)
+# squareList[4][4].setContent(pieceData.fantasyPieces["monk1"])
+# squareList[4][4].getContent().setX(4)
+# squareList[4][4].getContent().setY(4)
 
 running = True
 selectedTiles = []
